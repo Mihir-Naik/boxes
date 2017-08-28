@@ -12,8 +12,8 @@ function showGreeting() {
     setH1(sayHello("Mihir"))
 }
 var button = document.querySelector('button')
-button.addEventListener("mouseout", showGreeting)
-
-button.addEventListener("click", function () {
-    setH1(sayHello("Banana"))
-})
+button.addEventListener("click", showGreeting)
+// Anonymouse function example
+// button.addEventListener("click", function() {
+//     setH1(sayHello("Banana"))
+// })
